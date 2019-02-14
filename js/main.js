@@ -9,7 +9,7 @@
     
     var cfg = {
         scrollDuration : 800, // smoothscroll duration
-        mailChimpURL   : '<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us20.list-manage.com","uuid":"5de081e7668195a916754e2d6","lid":"c8426ecfbd","uniqueMethods":true}) })</script>'   // mailchimp url
+        mailChimpURL   : "https://github.us20.list-manage.com/subscribe/post?u=5de081e7668195a916754e2d6&amp;id=c8426ecfbd"   // mailchimp url
     },
 
     $WIN = $(window);
